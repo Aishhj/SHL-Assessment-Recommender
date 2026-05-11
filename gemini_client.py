@@ -22,7 +22,7 @@ except ImportError:
     _GENAI_AVAILABLE = False
     logger.warning("google-generativeai not installed. Gemini calls will be skipped.")
 
-MODEL_NAME = "gemini-2.0-flash-lite"
+MODEL_NAME = "gemini-2.0-flash"
 
 
 def _get_client():
